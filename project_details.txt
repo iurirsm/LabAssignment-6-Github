@@ -2,3 +2,4 @@ Initial project details for the assignment.
 
 --- New Feature ---
 Implemented new feature: Pokemon evolution database.
+Database restricted to original 151.
