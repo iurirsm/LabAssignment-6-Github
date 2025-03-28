@@ -6,3 +6,6 @@ Fixed typo in the project details section, changed Gastly to ghost type.
 --- New Feature ---
 Implemented new feature: Pokemon evolution database.
 Database restricted to original 151.
+
+--- Minor Update ---
+Updated initial pokemon to charmander, squirtle and bulbasaur.
