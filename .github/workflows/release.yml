@@ -1,0 +1,24 @@
+name: Package Release Artifact
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create artifact directory and copy project_details.txt
+        run: |
+          mkdir -p artifact
+          cp project_details.txt artifact/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: release-artifact
+          path: artifact/
