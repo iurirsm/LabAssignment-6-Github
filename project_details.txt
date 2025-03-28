@@ -1,1 +1,4 @@
 Initial project details for the assignment.
+
+--- Bug Fix ---
+Fixed typo in the project details section, changed Gastly to ghost type.
